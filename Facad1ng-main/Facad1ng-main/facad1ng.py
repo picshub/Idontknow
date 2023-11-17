@@ -3,7 +3,6 @@
 import pyshorteners
 from urllib.parse import urlparse
 
-instagram = 'https://instagram.com/374.karen_?igshid=NGVhN2U2NjQ0Yg=='
 github = 'https://github.com/picshub/Idontknow/tree/main'
 
 VERSION = '1.0.0'
@@ -49,7 +48,6 @@ def print_banners():
     print(f'{R}{banner}{W}\n')
     print(f'{G}╰➤ {C}Version      : {W}{VERSION}')
     print(f'{G}╰➤ {C}Creator      : {W}374.karware')
-    print(f'{G}╰➤ {C} instagram     : {W}{instagram_url}')}')
     print(f'{G}╰➤ {C}Github       : {W}{github}\n')
 
 ################
